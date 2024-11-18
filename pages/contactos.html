@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Satisfy&display=swap" rel="stylesheet">
+
+    <title>CONTACTOS</title>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="/images/imagenNB.png" alt="imagen NB" width="100px" height="100px"> <!--LOGO-->
+        </div>
+
+        <nav class="navbar">
+                 <ul class="menu-barra">
+                     <li><a href="../index.html">INICIO</a></li><!--PAGINA DE INICIO-->
+                     <li><a href="../pages/categorias.html">CATEGORIAS</a></li><!--ENLACE RELATIVO CATEGORIAS-->
+                     <li><a href="../pages/productos.html">PRODUCTOS</a></li><!--ENLACE RELATIVO PRODUCTOS-->
+                     <li><a href="../pages/pagos.html">FORMAS DE PAGO</a</li><!--ENLACE RELATIVO FORMAS DE PAGO-->
+                     <li><a href="../pages/contactos.html">CONTACTOS</a></li><!--ENLACE RELATIVO CONTACTOS-->
+                 </ul>
+         </nav>
+    </header>
+
+<form action="/sumit" method="post"><!--FORMULARIO PARA DEJAR CONTACTO-->
+    <fieldset>
+        <h1><legend>Siempre Conectados</legend></h1>
+
+        <label for="nombre">NOMBRE Y APELLIDO</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="celular">CELULAR DE CONTACTO</label>
+        <input type="number" name="celular" id="celular">
+        <label for="compra">COMPRA</label>
+        <input type="radio" name="compra" id="compra">
+        <label for="compra">MINORISTA</label>
+        <input type="radio" name="compra" id="compra">
+        <label for="compra">MAYORISTA</label>
+        <input type="radio" name="compra" id="compra">
+        <label for="consulta">CONSULTA</label>
+        <textarea name="consulta" id="consulta"></textarea>
+        <label for="zona">ZONA</label>
+        <select name="" id="">
+            <option value="">ZONA NORTE</option>
+            <option value="">ZONA SUR</option>
+            <option value="">ZONA ESTE</option>
+            <option value="">ZONA OESTE</option>
+        </select>
+        <label for="suscribe">RECIBIR NOVEDADES</label>
+        <input type="checkbox" name="suscribe" id="suscribe">
+        <input type="submit" value="ENVIAR">
+    </fieldset>
+</form>    
+
+<!--PIE DE PAGINA CON ENLACES ABSULUTOS-->
+<footer>
+    <div>
+        <h3>Contactanos</h3>
+        <ul>
+            <li><a href="https://www.instagram.com/nb_creaciones1/" target="_blank">INSTAGRAM: NB CREACIONES</a>
+            </li>
+            <li><a href="https://www.facebook.com/yanina.andrade.7?locale=es_LA" target="_blank">FACEBOOK: YANINA
+                    ANDRADE</a></li>
+            <li><a href="https://wa.me/5491123465877" target="_blank">WHATSAPP: 1123465877</a></li>
+        </ul>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.2095493878305!2d-58.618618824890646!3d-34.4975714518991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb3bc92ed55f%3A0xcdfb92e9a9d87bfc!2sSucre%202336%2C%20B1611GXR%20Don%20Torcuato%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1729255063642!5m2!1ses-419!2sar"
+            width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h5>Copyright&#169</h5>
+    </div>
+</footer>
+
+</body>
+</html>

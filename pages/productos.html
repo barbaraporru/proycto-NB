@@ -3,30 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Satisfy&display=swap" rel="stylesheet">
-
+      <!--CSS-->
+      <link rel="stylesheet" href="../css/style.css"> 
+      <!--BOOTSTRAP-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <!--ICONS BOOTSTRAP-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <!--FAVICON-->
+      <link rel="icon" type="images/x-icon" href="../images/logoNB.png">
+      <!--GOOGLE FONTS-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+          href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Satisfy&display=swap"
+          rel="stylesheet">
     <title>PRODUCTOS</title>
 </head>
 <body>
    
 <header>
-    <div class="logo">
-        <img src="/images/imagenNB.png" alt="imagen NB" width="100px" height="100px"> <!--LOGO-->
+    <!--BARRA DE NAVEGACION bg-body-tertiary-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#"><img src="../images/logoNB.png" width="80" alt="logo de la pagina"></a>
+        <ul class="navbar-nav d-flex justify-content-center align-item-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/categorias.html">CATEGORIAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/pagos.html">PAGOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contactos.html">CONTACTOS</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <nav class="navbar">
-             <ul class="menu-barra">
-                 <li><a href="../index.html">INICIO</a></li><!--PAGINA DE INICIO-->
-                 <li><a href="../pages/categorias.html">CATEGORIAS</a></li><!--ENLACE RELATIVO CATEGORIAS-->
-                 <li><a href="../pages/productos.html">PRODUCTOS</a></li><!--ENLACE RELATIVO PRODUCTOS-->
-                 <li><a href="../pages/pagos.html">FORMAS DE PAGO</a</li><!--ENLACE RELATIVO FORMAS DE PAGO-->
-                 <li><a href="../pages/contactos.html">CONTACTOS</a></li><!--ENLACE RELATIVO CONTACTOS-->
-             </ul>
-     </nav>
+  </nav>
 </header>
 
 <section>
@@ -54,5 +77,8 @@
     </div>
 </footer>
 
+<!--BOOTSTRAP FOOTER-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
 </body>
 </html>

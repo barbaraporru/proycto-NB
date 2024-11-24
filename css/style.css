@@ -85,7 +85,19 @@ h1 {
     text-align: center;
     margin: 10px;
 }
+/*seccion categoria*/
+.categorias{
+    padding: 40px;
+}
+.categorias .row div {
+    height: 250px;
+    background-color: #d40655;
+}
+.clara-categorias{
+    color: #000;
+    background-color: antiquewhite;
 
+}
     
 
     

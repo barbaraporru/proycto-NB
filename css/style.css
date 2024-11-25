@@ -87,18 +87,29 @@ h1 {
 }
 /*seccion categoria*/
 .categorias{
-    padding: 40px;
+    padding: 40px 40px 60px 40px;
 }
-.categorias .row div {
-    height: 250px;
-    background-color: #d40655;
-}
+
 .clara-categorias{
     color: #000;
     background-color: antiquewhite;
-
 }
-    
+.categorias-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.categorias i {
+    font-size: 2.5rex;
+    color: #ee09b5;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+.imagenes-categorias {
+    padding: 10px;
+}
+
 
     
 

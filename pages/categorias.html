@@ -1,136 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!--CSS-->
-      <link rel="stylesheet" href="../css/style.css"> 
-      <!--BOOTSTRAP-->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-      <!--ICONS BOOTSTRAP-->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-      <!--FAVICON-->
-      <link rel="icon" type="images/x-icon" href="../images/logoNB.png">
-      <!--GOOGLE FONTS-->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link
-          href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Satisfy&display=swap"
-          rel="stylesheet">
-    <title>CATEGORIAS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--ICONS BOOTSTRAP-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="/css/style.css">
+  <!--FAVICON-->
+  <link rel="icon" type="images/x-icon" href="../images/logoNB.png">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Satisfy&display=swap"
+    rel="stylesheet">
+  <title>CATEGORIAS</title>
 </head>
+
 <body>
-    
-    <header>
-        <!--BARRA DE NAVEGACION bg-body-tertiary-->
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-toggler">
-        <a class="navbar-brand" href="#"><img src="../images/logoNB.png" width="80" alt="logo de la pagina"></a>
-        <ul class="navbar-nav d-flex justify-content-center align-item-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">NOSOTROS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pages/categorias.html">CATEGORIAS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pages/pagos.html">PAGOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pages/contactos.html">CONTACTOS</a>
-          </li>
-        </ul>
+
+  <header>
+    <!--BARRA DE NAVEGACION bg-body-tertiary-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#"><img src="../images/logoNB.png" width="80" alt="logo de la pagina"></a>
+          <ul class="navbar-nav d-flex justify-content-center align-item-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/categorias.html">CATEGORIAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/pagos.html">PAGOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contactos.html">CONTACTOS</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-    </header>
+    </nav>
+  </header>
 
-    <section>
-        <h1>Categorias</h1>
-        <p>Pasea por todas las categorias, seguramente te sorprenderas con todo lo que tenemos para sublimar</p>
-    </section>
-   <!--seccion categorias-->
-    <section class="categorias clara-categorias">
-      <div class="container text-center">
-        <div class="row">
-          <!--indumentaria-->
-          <div class="columna col-12 col-md-3">
-            <i class="bi bi-mortarboard-fill"></i>
-            <p class="categorias-titulo">INDUMENTARIA</p>
-            <p>Todo lo que sea tela, lo encontras aca: remeras, bodys, gorras, etc.</p>
-            <img class="imagenes-categorias" src="../images/productos/precioscartel/preciogorra.jpg" alt="precio-gorra" width="200px" height="300px">
-            <div>
-              <a href="../pages/productos.html" class="btn btn-outline-dark">IR</a>
-              
+  <section>
+    <h1>Categorias</h1>
+    <p>Pasea por todas las categorias, seguramente te sorprenderas con todo lo que tenemos para sublimar</p>
+  </section>
+  <!--seccion categorias-->
+  <section class="categorias clara-categorias">
+    <div class="container text-center">
+      <div class="row">
+        <!--indumentaria-->
+        <div class="columna col-12 col-md-3">
+          <i class="bi bi-mortarboard-fill"></i>
+          <p class="categorias-titulo">INDUMENTARIA</p>
+          <p>Todo lo que sea tela, lo encontras aca: remeras, bodys, gorras, etc.</p>
+          <img class="imagenes-categorias" src="../images/productos/precioscartel/preciogorra.jpg" alt="precio-gorra"
+            width="200px" height="300px">
+          <div>
+            <a href="../pages/productos.html" class="btn btn-outline-dark">IR</a>
 
-            </div>
-            
-          </div>
-
-          <!--polimero-->
-          <div class="columna col-12 col-md-3">
-            <i class="bi bi-cup-straw"></i>
-            <p class="categorias-titulo">POLIMERO</p>
-            <p>Estos pruductos son uper resistente y gran durabilidad</p>
-            <img src="../images/productos/precioscartel/preciopolimero.jpg" alt="precio-polimero" width="200px" height="300px">
-
-          </div>
-          <!--tazas-->
-          <div class="columna col-12 col-md-3">
-            <i class="bi bi-cup-fill"></i>
-            <p class="categorias-titulo" >TAZAS</p>
-            <p>De distintos materiales y personalizadas segun tus momentos</p>
-            <img src="../images/productos/precioscartel/preciotaza.jpg" alt="precio-taza" width="200px" height="300px">
-
-          </div>
-          <!--varios-->
-          <div class="columna col-12 col-md-3" >
-            <i class="bi bi-bag-heart-fill"></i>
-            <p class="categorias-titulo">VARIOS</p>
-            <p>No te pierdas las novedades de nuestros productos</p>
-            <img src="../images/productos/precioscartel/pecioesmerilado.jpg" alt="precio-esmerilado" width="200px" height="300px">
 
           </div>
 
         </div>
 
+        <!--polimero-->
+        <div class="columna col-12 col-md-3">
+          <i class="bi bi-cup-straw"></i>
+          <p class="categorias-titulo">POLIMERO</p>
+          <p>Estos pruductos son uper resistente y gran durabilidad</p>
+          <img src="../images/productos/precioscartel/preciopolimero.jpg" alt="precio-polimero" width="200px"
+            height="300px">
+
+        </div>
+        <!--tazas-->
+        <div class="columna col-12 col-md-3">
+          <i class="bi bi-cup-fill"></i>
+          <p class="categorias-titulo">TAZAS</p>
+          <p>De distintos materiales y personalizadas segun tus momentos</p>
+          <img src="../images/productos/precioscartel/preciotaza.jpg" alt="precio-taza" width="200px" height="300px">
+
+        </div>
+        <!--varios-->
+        <div class="columna col-12 col-md-3">
+          <i class="bi bi-bag-heart-fill"></i>
+          <p class="categorias-titulo">VARIOS</p>
+          <p>No te pierdas las novedades de nuestros productos</p>
+          <img src="../images/productos/precioscartel/pecioesmerilado.jpg" alt="precio-esmerilado" width="200px"
+            height="300px">
+
+        </div>
+
       </div>
 
-
-
-
-    </section>
-
-
-
-
-<!--PIE DE PAGINA CON ENLACES ABSULUTOS-->
-<footer>
-    <div>
-        <h3>Contactanos</h3>
-        <ul>
-            <li><i class="bi bi-instagram"></i><a href="https://www.instagram.com/nb_creaciones1/" target="_blank">INSTAGRAM: NB CREACIONES</a>
-            </li>
-            <li><i class="bi bi-facebook"></i><a href="https://www.facebook.com/yanina.andrade.7?locale=es_LA" target="_blank">FACEBOOK: YANINA
-                    ANDRADE</a></li>
-            <li><i class="bi bi-whatsapp"></i><a href="https://wa.me/5491123465877" target="_blank">WHATSAPP: 1123465877</a></li>
-        </ul>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.2095493878305!2d-58.618618824890646!3d-34.4975714518991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb3bc92ed55f%3A0xcdfb92e9a9d87bfc!2sSucre%202336%2C%20B1611GXR%20Don%20Torcuato%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1729255063642!5m2!1ses-419!2sar"
-            width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <h5>Copyright&#169</h5>
     </div>
-</footer>
-<!--BOOTSTRAP FOOTER-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+
+
+
+
+  </section>
+
+
+  <!--PIE DE PAGINA CON ENLACES ABSULUTOS-->
+  <footer>
+    <div>
+      <h3>Contactanos</h3>
+      <ul>
+        <li class="nav-link"><i class= "color-icons bi bi-instagram"></i><a href="https://www.instagram.com/nb_creaciones1/"
+            target="_blank">INSTAGRAM: NB CREACIONES</a>
+        </li>
+        <li class="nav-link"><i class="color-icons bi bi-facebook"></i><a href="https://www.facebook.com/yanina.andrade.7?locale=es_LA"
+            target="_blank">FACEBOOK: YANINA
+            ANDRADE</a></li>
+        <li class="nav-link"><i class="color-icons bi bi-whatsapp"></i><a href="https://wa.me/5491123465877" target="_blank">WHATSAPP: 1123465877</a>
+        </li>
+      </ul>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.2095493878305!2d-58.618618824890646!3d-34.4975714518991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb3bc92ed55f%3A0xcdfb92e9a9d87bfc!2sSucre%202336%2C%20B1611GXR%20Don%20Torcuato%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1729255063642!5m2!1ses-419!2sar"
+        width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <h5>Copyright&#169</h5>
+    </div>
+  </footer>
+  <!--BOOTSTRAP FOOTER-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>

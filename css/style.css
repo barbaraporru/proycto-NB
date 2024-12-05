@@ -38,7 +38,7 @@ h1 {
     font-family: "Satisfy", serif;
 }
 .parrafo-principal {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     padding: 5px;
     align-items: center;
@@ -89,7 +89,6 @@ h1 {
 .categorias{
     padding: 40px 40px 60px 40px;
 }
-
 .clara-categorias{
     color: #000;
     background-color: antiquewhite;
@@ -109,19 +108,16 @@ h1 {
 .imagenes-categorias {
     padding: 10px;
 }
-
-
-    
-
-
-
-i {
+.color-icons {
     color: #d40655;
 }
-
-
-
-
-
-
+a {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-link :hover {
+    color: darkmagenta;
+}
 

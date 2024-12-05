@@ -9,7 +9,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #000;
+    color: #222;
     font-family: "Satisfy", serif;
     border: none;
     margin: 10px;
@@ -111,7 +111,7 @@ footer {
     padding: 10px;
 }
 .color-icons {
-    color: #d40655;
+    color: darkmagenta;
 }
 a {
     color: #000;
@@ -140,6 +140,4 @@ h2 .titulo-productos {
 .formulario {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
 

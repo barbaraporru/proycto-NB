@@ -1,0 +1,36 @@
+/*variables*/
+body {
+  background-color: url(/images/fondo2.jpeg);
+  color: #222;
+  font-family: "Satisfy", serif;
+}
+
+h1 {
+  font-family: "Satisfy", serif;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-weight: bold;
+  margin: 10px 0;
+  justify-items: left;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  padding: 5px;
+  align-items: center;
+  color: darkslategray;
+}
+
+/*mixin*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=styles.css.map */

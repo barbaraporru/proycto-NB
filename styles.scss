@@ -1,0 +1,43 @@
+/*variables*/
+$primary-color: #222;
+$secondary-color: darkslategray;
+$primary-fonts: "Satisfy", serif;
+$secondary-fonts: Verdana, Geneva, Tahoma, sans-serif; 
+$imagen-fondo: url(/images/fondo2.jpeg);
+$grosor-fonts: bold;
+$color-hover: darkmagenta;
+
+body {
+    background-color: $imagen-fondo;
+    color: $primary-color;
+    font-family: $primary-fonts;
+}
+h1 {
+    font-family: $primary-fonts;
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    font-weight: $grosor-fonts;
+    margin: 10px 0;
+    justify-items: left;
+}
+p {
+    font-family: $secondary-fonts;
+    font-size: medium;
+    padding: 5px;
+    align-items: center;
+    color: $secondary-color;
+}
+/*mixin*/
+@mixin flex-center () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    @include flex-center;
+    flex-direction: column;
+}
+    
+
